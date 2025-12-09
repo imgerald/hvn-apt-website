@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Now — Apartment</title>
+  <link rel="stylesheet" href="style1.css" />
+</head>
+<body>
+  <section class="contact-card" aria-labelledby="contact-heading">
+    <div class="contact-info">
+      <div class="kicker">Get in touch</div>
+      <h2 class="title" id="contact-heading">Send us a message.</h2>
+      <p class="subtitle">Have questions or want to book a viewing? Reach out and our leasing team will respond quickly with availability and rates.</p>
+      <div class="features" aria-hidden="true">
+        <div class="feature">Fast replies</div>
+        <div class="feature">Flexible viewings</div>
+        <div class="feature">No-obligation quote</div>
+      </div>
+    </div>
+
+    <form class="contact-form" action="#" method="post" onsubmit="return false;">
+      <div class="row">
+        <div>
+          <label for="name">Full name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" required>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required>
+        </div>
+      </div>
+
+      <div class="row">
+        <div>
+          <label for="phone">Phone (optional)</label>
+          <input id="phone" name="phone" type="text" placeholder="+63 912 345 6789">
+        </div>
+        <div>
+          <label for="unit">Interested unit</label>
+          <input id="unit" name="unit" type="text" placeholder="1 Bedroom / Studio / 2 Bedroom">
+        </div>
+      </div>
+
+      <div>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Tell us what you're looking for..." required></textarea>
+      </div>
+
+      <div style="display:flex;gap:12px;align-items:center;justify-content:flex-start;margin-top:6px;flex-wrap:wrap">
+        <button type="submit" class="btn">Contact Now</button>
+        <div class="note">Or call us: <strong>+63 912 345 6789</strong></div>
+      </div>
+
+       </form>
+  </section>
+</body>
+</html>
